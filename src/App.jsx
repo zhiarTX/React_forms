@@ -1,6 +1,7 @@
 import Authenticate from './components/Authenticate';
 import SignUpForm from './components/SignUpForm';
-export default App () {
+export default 
+ function App() {
   return (
 
     <>
