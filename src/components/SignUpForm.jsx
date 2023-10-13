@@ -15,7 +15,7 @@ async function handleSubmit(event) {
 }
 return (
     <>
-    <h2>Sign Up</h2>
+    <h2>Sign Up!</h2>
     {error && <p>error</p>}
     <form onSubmit={handleSubmit}>
         <label>
@@ -32,12 +32,10 @@ return (
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             />
-            />
+            
             </label>
            <button>Submit</button> 
     </form>
     </>
 );
-
-return <h2>Sign Up!</h2>;
 }
